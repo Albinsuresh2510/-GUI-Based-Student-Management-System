@@ -1,7 +1,9 @@
 package com.example.studentmanagement;
 
+import com.example.studentmanagement.view.WelcomeScreen;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("✅ Hello, Java project is working!");
+      new WelcomeScreen();
     }
 }
